@@ -1,4 +1,7 @@
 <html>
+<head>
+    <title>Home</title>
+</head>
 <body>
 
 Welcome <?php echo $_POST["name"]; ?><br>
