@@ -26,9 +26,9 @@
     	$nation->N_NAME = ucfirst(strtolower($nation->N_NAME));
 	}
 
-	$denmarkList = getNationDocAsList($doc);
+	$prettyList = getNationDocAsList($doc);
 
-	echo($nationList . "<hr>" . $denmarkList);
+	echo($nationList . "<hr>" . $prettyList);
 ?>
 </body>
 </html>
