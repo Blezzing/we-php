@@ -12,21 +12,7 @@
         <input type="submit">
     </form>
     
-    <?php
-        $xml = simplexml_load_file("http://www.cs.washington.edu/research/xmldatasets/data/tpc-h/nation.xml");
-        foreach ($xml->T as $land) {
-            echo $land->N_NAME."<br>";
-        }
-        echo "<br>NOW I WILL CHANGE THE XML! : <br>";
-        foreach ($xml->T as $land) {
-            $land->N_NAME = "DaneMark!";
-            echo $land->N_NAME."<br>";
-        }
-    ?>
     X: <input type="text" id="squareText"></br>
     <button id="btn-get-square" type="button">Get square</button>
-
-    <br><br>
-    <?php phpinfo() ?>
 </body>
 </html>
