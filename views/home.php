@@ -12,7 +12,7 @@ Name: <input type="text" name="name"><br>
 Favorite color: <input type="text" name="color"><br>
 <input type="submit">
 </form>
-
+<hr>
 X: <input type="text" id="squareText"></br>
 <button type="button" onclick="getSquare($('#squareText').val())">Get square</button>
 
