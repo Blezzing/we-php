@@ -17,6 +17,11 @@
         foreach ($xml->T as $land) {
             echo $land->N_NAME."<br>";
         }
+        echo "<br>NOW I WILL CHANGE THE XML! : <br>";
+        foreach ($xml->T as $land) {
+            $land->N_NAME = "DaneMark!";
+            echo $land->N_NAME."<br>";
+        }
     ?>
     X: <input type="text" id="squareText"></br>
     <button id="btn-get-square" type="button">Get square</button>
