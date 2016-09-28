@@ -5,7 +5,7 @@
 </head>
 <body>
 	<?php
-	require "/controllers/xmlController.php";
+	require "../controllers/xmlController.php";
 
 	function getNationDocAsList($doc){
 	    $list = "<ul>";
