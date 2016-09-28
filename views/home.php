@@ -14,7 +14,7 @@ Favorite color: <input type="text" name="color"><br>
 </form>
 <hr>
 X: <input type="text" id="squareText"></br>
-<button type="button" onclick="getSquare($('#squareText').val())">Get square</button>
+<button id="btn-get-square" type="button" onclick="getSquare($('#squareText').val())">Get square</button>
 
 </body>
 </html>
