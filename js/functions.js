@@ -2,7 +2,7 @@
 var getSquare = function(x){
     $.ajax({
         type: "GET",
-        url: "controllers/mathController.php",
+        url: "/controllers/mathController.php",
         data:{x: x},
         success: function(data){
             alert(data);
