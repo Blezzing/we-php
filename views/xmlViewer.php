@@ -16,6 +16,10 @@ $doc = XMLController::getNationDoc();
 
 $nationList = getNationDocAsList($doc);
 
+foreach ($doc->T as $nation) {
+    $nation->N_NAME = ucfirst(strtolower($nation->N_NAME));
+}
+
 $denmarkList = getNationDocAsList($doc);
 
 echo($nationList . "<hr>" . $denmarkList);
