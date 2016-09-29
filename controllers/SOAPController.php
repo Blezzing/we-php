@@ -6,7 +6,7 @@ class MyAPI {
 
 }
 //when in non-wsdl mode the uri option must be specified
-$options=array('uri'=>'http://localhost/we-php/');
+$options=array('uri'=>'http://localhost/');
 //create a new SOAP server
 $server = new SoapServer(NULL,$options);
 //attach the API class to the SOAP Server
